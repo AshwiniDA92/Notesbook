@@ -1,4 +1,4 @@
 git add. to add file
 git commit -m msg in<>
-git push -u origin mail
+git push -u origin main
 this need to type
