@@ -1,4 +1,8 @@
 git add. to add file
 git commit -m msg in<>
 git push -u origin main
+<<<<<<< Updated upstream
+=======
+#the bove line is to push the commits to remote repo ... 
+>>>>>>> Stashed changes
 this need to type
