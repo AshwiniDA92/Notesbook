@@ -1,0 +1,21 @@
+# config/app.yml
+app: notesbox
+version: 1.0
+debug: true
+ports:
+  - 8080
+  - 8081
+database:
+  host: localhost
+  port: 5432
+  user: notes
+  pass: "p@ss:word"   # quote strings with colon
+features:
+  search: true
+  export:
+    formats: [md, pdf, txt]
+welcome_message: >
+  Hello!
+  This is a folded
+  multi-line string.
+notes_dir: ./notes
